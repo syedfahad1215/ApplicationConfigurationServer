@@ -2,12 +2,6 @@ my:
   app:
     title: CONFIG-SERVER
 
-#Providing Eureka location
-eureka:
-  client:
-    service-url:
-      defaultZone=http://localhost:8761/eureka
-
 #Generating Instance Id
 eureka:
   instance:
